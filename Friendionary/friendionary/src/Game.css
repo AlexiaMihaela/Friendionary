@@ -1,0 +1,94 @@
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #FFC0CB, #DDA0DD); 
+  }
+  
+  .game-card {
+    background: rgba(255, 192, 203, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 30px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .game-card h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+  }
+  
+  .game-card p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #4a4a4a;
+  }
+  
+  .game-input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .game-input:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  }
+  
+  .verify-button,
+  .restart-button,
+  .exit-button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  .verify-button {
+    background-color: #007BFF;
+  }
+  
+  .restart-button {
+    background-color: #007BFF;
+  }
+  
+  .exit-button {
+    background-color: #007BFF;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .verify-button:hover,
+  .restart-button:hover,
+  .exit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .verify-button:active,
+  .restart-button:active,
+  .exit-button:active {
+    transform: scale(0.98); 
+  }
+  
+  a.exit-button {
+    color: white;
+  }
+  

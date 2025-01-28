@@ -1,0 +1,174 @@
+.modify-word-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    gap: 20px; 
+    background: linear-gradient(135deg, #FFC0CB, #DDA0DD); 
+  }
+  
+
+  .word-list {
+    width: 30%; 
+    text-align: left;
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .modify-word-container h3 {
+    font-size: 24px; 
+    font-weight: bold;
+    color: white; 
+    margin-bottom: 20px;
+    text-align: top;
+  }
+  
+  .word-item {
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .word-item:hover {
+    background: #007BFF;
+    color: white;
+  }
+  
+  .selected {
+    background: #007BFF;
+    color: white;
+  }
+  
+  .add-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-button:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+  .word-details {
+    width: 60%; 
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2); 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .word-details h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .word-details p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+  }
+  
+  .edit-button,
+  .delete-button {
+    background-color: #007BFF; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .delete-button {
+    background-color: #FF4D4D; 
+  }
+  
+  .delete-button:hover {
+    background-color: #CC0000; 
+  }
+  
+
+  .button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 40px; 
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button:active {
+    transform: translateX(-50%) scale(0.98); 
+  }
+  .Exit-button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    padding: 10px 40px; 
+    font-size: 16px; 
+    color: white; 
+    background-color: #007BFF; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    transition: background-color 0.3s ease; 
+    text-decoration: none; 
+    text-align: center;
+  }
+
+  .Exit-button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .Exit-button:active {
+    transform: translateX(-50%) scale(0.98); 
+  }
